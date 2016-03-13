@@ -51,6 +51,7 @@ You need to use the `action` attribute of `form`:
 
 and replace replace the *XXXX* values from `index.hbs` and `tag.hbs`, respectively line **20** and **25**.
 
+**If your background image is white/light**, or if you don't have any background image, the email text field will be white over white, and its text won't be readable (because also white). You will have to change the style in the file `asset/css/screen.css`, at the very end of the file.
 
 ## Copyright & License
 
