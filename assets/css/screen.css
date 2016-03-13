@@ -25,7 +25,7 @@
    0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
    ========================================================================== */
 
-html { 
+html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -71,7 +71,7 @@ button, input, optgroup, select, textarea {
 }
 button { overflow: visible; }
 button, select { text-transform: none; }
-button, html input[type="button"], 
+button, html input[type="button"],
 input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
@@ -2069,3 +2069,45 @@ body:not(.post-template) .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
+
+.chimpForm{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.45);
+    border: none;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    width: 50%;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 50px;
+    outline: none;
+    color: #FFF;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.chimpForm:focus{
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.chimpForm::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 200;
+}
+.chimpForm:-moz-placeholder {
+    /* FF 4-18 */
+    color: rgba(255, 255, 255, 1);
+    font-weight: 200;
+}
+.chimpForm::-moz-placeholder {
+    /* FF 19+ */
+    color: rgba(255, 255, 255, 1);
+    font-weight: 200;
+}
+.chimpForm:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(255, 255, 255, 1);
+    font-weight: 200;
+}
