@@ -2,10 +2,11 @@
 
 A fork of the default Casper theme (made at v1.2.8), with Mailchimp subscription form.  
 The form are displayed at two places:  
-1. The index page
-2. The tag page
+1. The index page  
+2. The tag page  
 
 Like that:  
+
 
 
 
